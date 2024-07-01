@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" href="./images//book-2-24.ico" type="image/">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <link rel="stylesheet" href="index.css" />
+        <title>Dictionary with Api call</title>
+    </head>
+
+    <body>
+        <div class="container-div">
+            <div class="search-div">
+                <input
+                    type="text"
+                    id="input"
+                    class="search-box"
+                    placeholder="Enter a word"
+                />
+                <input
+                    type="submit"
+                    value="search"
+                    id="submit"
+                    class="search-btn"
+                />
+            </div>
+
+            <div class="main-div js-container-div">
+                <div>
+                    <img id="playBtn" class="play-button" />
+                    <audio id="myAudio"></audio>
+                </div>
+
+                <div class="word-div js-word-div"></div>
+                <h5 id="example"></h5>
+
+                <div class="flex-div js-flex-div">
+                    <div id="synonyms-div" class="syn"></div>
+                    <div id="antonyms-div" class="ant"></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>

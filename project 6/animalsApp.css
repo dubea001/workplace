@@ -1,0 +1,32 @@
+.main-section-div {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  border: 2px solid #000;
+  height: max-content;
+  text-align: center;
+  margin-top: 20px;
+}
+.main-section-div section:first-child {
+  background-color: red;
+}
+.main-section-div section:nth-child(2) {
+  background-color: green;
+}
+.main-section-div section:last-child {
+  background-color: red;
+}
+
+.option-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-basis: content;
+  background-color: blue;
+}
+
+
+header {
+  text-align: center;
+}
